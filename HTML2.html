@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Feriel's Portfolio</title> 
+    <title>Video js full stuk training </title>
+    <title> Feriel's Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <h1 CLASS ="title">Welcome to My Portfolio</h1>
+        <p>Welcome to my portfolio to get to know me more.</p>
+    </div>
+
+    <div id="about">
+        <h2 class="title">About Me</h2>
+    <!-- this is my picture -->
+    <img src="file:///C:/Users/fadou/OneDrive/Bureau/pic/Screenshot_20230913-225853.jpg" width="350" height="350">
+        <p class="paragraph">Feriel Kemala</p>
+            I am 25 years old <br>
+            I am a primary french teacher in a local school <br>
+            I am a final year student in information technology.
+             <!-- this general information about me  -->
+    </div>
+
+    <div id="work">
+    <ul>
+        <h2 class="title">My Work</h2>
+            <li>acctually: js full stuk training at gomycode</li><br>
+            <li>this video is explaing more about the training <li><br>    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/__fEqwluJoQ?si=UIlNyYUiAaG8r5iV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+            <li>from 2022 until now: accountant in a travel agency </li><br>
+             <!-- this my occupations details   -->
+    </ul> 
+    </div>
+
+    <div id="resume">
+    <ol > 
+        <h2 class="title">My Resume </h2> 
+        <li>from 2016 : baccalaureate degree   </li><br>
+        <li>from 2016 to 2019 : bachelor in education and teaching  </li><br>
+        <li>from 2021 to 2024 : licence in information technology  </li><br>
+    </ol>  
+        <!-- this my cursus resume  -->
+    </div>
+
+    <div id="contact">
+        <h2 class="title">Contact Me</h2>
+        <p>For more information you can contact me :</p>
+        <form action="submit.php" method="post">
+            <label  for="name" class= "put">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email" class= "put">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message" class= "put">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input class=btn type="submit" value="Submit"><br>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p class="paragraph">&copy; Feriel's Portfolio </p>
+    </footer>
+</body>
+
+
+</html>
